@@ -11,14 +11,15 @@ A browser-based drawing animator built with Gleam and Lustre for UC Berkeley CS 
 - Play animations backward with a negative speed, or pause at zero.
 - Create and switch between named drawings.
 - Automatically save drawings in your browser across page reloads.
-- Explore the Big Fish Observer portrait through a localized fishbowl lens.
-- Adjust lens strength and independently play, pause, or slow its gentle motion.
+- Repeat drawings around the center with Ripple Kaleidoscope and optional alternating reflection.
+- Click the canvas to create overlapping ripples with adjustable distortion strength.
+- Independently control automatic rotation and path playback.
 
 ## Usage
 
 Choose a drawing from the menu or select **New drawing…** to create one. Edit the code and use the sliders to explore the result. Code errors appear beside the editor.
 
-Click **Load portrait demo** to open Big Fish Observer. Use **Strength** to adjust refraction and **Pause lens** to inspect a frozen pose. **Lens motion** controls the lens animation, while the bottom **Speed** slider controls path playback. Enable **Fishbowl lens** on other drawings to bend their paths through the water.
+Click **Load flower demo** to open the custom petal drawing. Adjust **Copies** and **Alternate mirror** to explore its symmetry, then click the canvas to create water-like ripples. **Ripple** controls distortion strength. **Pause rotation** and **Rotation** control the pattern's rotation independently of the bottom path-playback **Speed** slider. Enable **Kaleidoscope** on any drawing to use the extension with your own code.
 
 Drawings are stored locally in your browser. They are specific to the browser and site address and do not sync between devices.
 

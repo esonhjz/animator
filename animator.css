@@ -212,32 +212,28 @@ html, body { width: 100%; height: 100%; overflow: hidden; }
   color: inherit;
 }
 
-.lens-panel { padding: 18px 22px 16px; flex-shrink: 0; border-bottom: 1px solid #3a3a5e; }
-.lens-heading { display: flex; justify-content: space-between; align-items: center; gap: 16px; margin-bottom: 15px; }
-.lens-heading h1 { font-family: Georgia, serif; font-size: 24px; font-weight: normal; letter-spacing: -0.5px; }
-.lens-button { font: inherit; padding: 7px 12px; border-radius: 6px; background: #29334d; border: 1px solid #58617b; color: inherit; cursor: pointer; white-space: nowrap; }
-.lens-button:hover { background: #3b4b69; }
-.lens-button:focus-visible, input:focus-visible, select:focus-visible { outline: 2px solid #5bb6c5; outline-offset: 3px; }
-.lens-controls { display: flex; flex-wrap: wrap; align-items: center; gap: 12px 18px; }
-.lens-controls label { display: flex; align-items: center; gap: 9px; font-size: 12px; }
-.lens-controls input[type="range"] { width: 95px; accent-color: #6bb9c7; }
-.lens-toggle { cursor: pointer; }
-.lens-toggle input { accent-color: #548b9b; }
-.observer-enabled { color: #354960; background: #f7f4ee; }
-.observer-enabled .canvas-area { background: #f7f4ee; }
-.observer-enabled .lens-panel { border-color: #dddcd5; }
-.observer-enabled .lens-button { background: #e4eceb; border-color: #bdcccd; }
-.observer-enabled .lens-button:hover { background: #d4e3e3; }
-.observer-enabled .animation-controls { background: #eeeae2; border-color: #d8d3ca; }
-.observer-enabled .animation-controls select { background: #faf8f2; border-color: #c8ccc7; }
-.observer-enabled .animation-controls input { accent-color: #638f9a; }
-.observer-enabled .animation-error { background: #f7f4ee; color: #9a3648; }
+.effect-panel { padding: 18px 22px 14px; flex-shrink: 0; border-bottom: 1px solid #2a3a52; background: #111d2c; }
+.effect-heading { display: flex; justify-content: space-between; align-items: center; gap: 16px; margin-bottom: 15px; }
+.effect-heading h1 { font-family: Georgia, serif; font-size: 25px; font-weight: normal; letter-spacing: -0.5px; color: #d5e5ed; }
+.effect-button { font: inherit; padding: 7px 12px; border-radius: 6px; background: #203448; border: 1px solid #466277; color: #c7e7eb; cursor: pointer; white-space: nowrap; }
+.effect-button:hover { background: #2b485e; }
+.effect-button:focus-visible, input:focus-visible, select:focus-visible { outline: 2px solid #77d9da; outline-offset: 3px; }
+.effect-controls { display: flex; flex-wrap: wrap; align-items: center; gap: 12px 18px; color: #bbcbd7; }
+.effect-controls label { display: flex; align-items: center; gap: 9px; font-size: 12px; }
+.effect-controls input[type="range"] { width: 95px; accent-color: #77bdca; }
+.effect-toggle { cursor: pointer; }
+.effect-toggle input { accent-color: #75bec8; }
+.canvas-instruction { font-size: 12px; color: #8ea8ba; margin-top: 12px; }
+.kaleidoscope-enabled .canvas-area { background: #0a1221; cursor: crosshair; }
+.kaleidoscope-enabled .animation-controls { background: #142133; border-color: #2a3a52; }
+.kaleidoscope-enabled .animation-controls input { accent-color: #77bdca; }
+.kaleidoscope-enabled .animation-error { background: #111d2c; color: #f4bac6; }
 
 @media (max-width: 760px) {
   .code-col { width: 40%; min-width: 260px; }
-  .lens-heading { flex-wrap: wrap; }
-  .lens-heading h1 { font-size: 21px; }
-  .lens-panel { padding: 12px; }
+  .effect-heading { flex-wrap: wrap; }
+  .effect-heading h1 { font-size: 21px; }
+  .effect-panel { padding: 12px; }
   .animation-controls { padding: 12px; }
 }
 
